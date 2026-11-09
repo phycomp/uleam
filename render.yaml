@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: quantum-transmission-line
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+    healthCheckPath: /_stcore/health

@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "acceptance_pipeline/kpi_spec.py",
+      "category": "code",
+      "status": "ok",
+      "sha256": "a52de5ebe8787bc871f03b96606c5e21ea484750a742f8205ec48adde67c3851",
+      "dest": "/home/sam/代理人/acceptance_output/deliverables/code/kpi_spec.py"
+    },
+    {
+      "path": "acceptance_pipeline/material_db.py",
+      "category": "code",
+      "status": "ok",
+      "sha256": "3368db82ae2c1c1ead29256f2fe2f24b29ef4775de6e4f53ac26868c771d2624",
+      "dest": "/home/sam/代理人/acceptance_output/deliverables/code/material_db.py"
+    },
+    {
+      "path": "acceptance_pipeline/pipeline.py",
+      "category": "code",
+      "status": "ok",
+      "sha256": "eecbac812f7e50658df19373e2ab8574b050c80c4cd23a9b8522931f02e7b289",
+      "dest": "/home/sam/代理人/acceptance_output/deliverables/code/pipeline.py"
+    },
+    {
+      "path": "tests/test_acceptance_pipeline.py",
+      "category": "tests",
+      "status": "ok",
+      "sha256": "d15b070915477d07bfed86da75f5269726798cc49dcefa757c17ff36a955b423",
+      "dest": "/home/sam/代理人/acceptance_output/deliverables/tests/test_acceptance_pipeline.py"
+    }
+  ],
+  "timestamp": "2026-11-06T11:25:21.925170"
+}

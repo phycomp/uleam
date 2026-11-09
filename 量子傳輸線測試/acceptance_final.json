@@ -1,0 +1,51 @@
+{
+  "final_acceptance": true,
+  "all_pass": true,
+  "results": [
+    {
+      "name": "CF3 (Cu)",
+      "material": "Cu",
+      "w": 0.25,
+      "h": 0.13,
+      "s": 0.5,
+      "t_um": 10.0,
+      "Z0": 50.005,
+      "NEXT": -40.11,
+      "thermal": 373.51,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    },
+    {
+      "name": "FPC (Cu)",
+      "material": "Cu",
+      "w": 0.3,
+      "h": 0.15,
+      "s": 0.6,
+      "t_um": 10.0,
+      "Z0": 49.984,
+      "NEXT": -40.18,
+      "thermal": 448.21,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    },
+    {
+      "name": "Uleam1 (NbTi)",
+      "material": "NbTi",
+      "w": 0.24,
+      "h": 0.14,
+      "s": 0.5,
+      "t_um": 35.0,
+      "Z0": 50.015,
+      "NEXT": -40.26,
+      "thermal": 61.3,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    }
+  ]
+}

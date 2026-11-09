@@ -1,0 +1,45 @@
+{
+  "iteration": "closed-loop",
+  "results": [
+    {
+      "name": "CF3",
+      "w": 0.25,
+      "h": 0.13,
+      "s": 0.5,
+      "Z0": 50.005,
+      "NEXT": -40.11,
+      "thermal": 373.51,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    },
+    {
+      "name": "FPC",
+      "w": 0.27,
+      "h": 0.14,
+      "s": 0.6,
+      "Z0": 49.935,
+      "NEXT": -41.13,
+      "thermal": 726.11,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": false,
+      "PASS": false
+    },
+    {
+      "name": "Uleam1",
+      "w": 0.24,
+      "h": 0.14,
+      "s": 0.5,
+      "Z0": 50.015,
+      "NEXT": -40.26,
+      "thermal": 1317.64,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": false,
+      "PASS": false
+    }
+  ],
+  "all_pass": false
+}

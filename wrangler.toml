@@ -1,0 +1,20 @@
+name = "quantum-transmission-line"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+account_id = "c48586c6ccfa39985fcb66dd4e00d054"
+
+[[containers]]
+class_name = "AppContainer"
+image = "./Dockerfile"
+max_instances = 2
+
+[[durable_objects.bindings]]
+name = "APP_CONTAINER"
+class_name = "AppContainer"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["AppContainer"]
+
+[vars]
+ENVIRONMENT = "production"

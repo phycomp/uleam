@@ -1,0 +1,11 @@
+{
+  "materials": [
+    {"name": "Cu", "display": "Copper", "conductivity_s_m": 5.8e7, "thermal_a": 0.1, "thermal_b": 1.0, "dk": 1.0, "loss_tan": 0.0, "tc_k": null, "lambda0_nm": null, "min_thickness_mil": 4.0, "supplier": "通用", "notes": "室溫銅導體，高熱導"},
+    {"name": "NbTi", "display": "Niobium-Titanium", "conductivity_s_m": 0.0, "thermal_a": 0.0005, "thermal_b": 1.5, "dk": 3.38, "loss_tan": 0.0001, "tc_k": 9.2, "lambda0_nm": 240.0, "min_thickness_mil": 4.0, "supplier": "超導線材", "notes": "超導，低熱負載"},
+    {"name": "Nb", "display": "Niobium", "conductivity_s_m": 0.0, "thermal_a": 0.002, "thermal_b": 1.3, "dk": 3.38, "loss_tan": 0.0001, "tc_k": 9.2, "lambda0_nm": 40.0, "min_thickness_mil": 4.0, "supplier": "超導線材", "notes": "高阻抗 Nb"},
+    {"name": "Al", "display": "Aluminum", "conductivity_s_m": 3.5e7, "thermal_a": 0.05, "thermal_b": 1.1, "dk": 1.0, "loss_tan": 0.0, "tc_k": 1.2, "lambda0_nm": 50.0, "min_thickness_mil": 4.0, "supplier": "通用", "notes": "鋁，低溫超導"},
+    {"name": "Rogers RO4003C", "display": "Rogers RO4003C", "conductivity_s_m": 0.0, "thermal_a": 0.02, "thermal_b": 1.2, "dk": 3.38, "loss_tan": 0.0027, "tc_k": null, "lambda0_nm": null, "min_thickness_mil": 4.0, "supplier": "Rogers", "notes": "微波基板"},
+    {"name": "PTFE", "display": "PTFE", "conductivity_s_m": 0.0, "thermal_a": 0.01, "thermal_b": 1.1, "dk": 2.1, "loss_tan": 0.0002, "tc_k": null, "lambda0_nm": null, "min_thickness_mil": 4.0, "supplier": "通用", "notes": "低介電"},
+    {"name": "High-Res Silicon", "display": "High-Resistivity Silicon", "conductivity_s_m": 0.0, "thermal_a": 0.03, "thermal_b": 1.2, "dk": 11.7, "loss_tan": 0.0001, "min_thickness_mil": 4.0, "tc_k": null, "lambda0_nm": null, "supplier": "半導體", "notes": "高電阻矽"}
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "started_at": "2026-11-06T11:25:31",
+  "finished_at": "2026-11-06T11:25:39",
+  "overall_pass": true,
+  "summary": {
+    "stage_count": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0
+  },
+  "stages": [
+    {
+      "stage_id": 0,
+      "name": "KPI 規格指標",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "kpi_count": 5,
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.004
+    },
+    {
+      "stage_id": 1,
+      "name": "開發量子傳輸線",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "material_exists",
+          "pass": true
+        },
+        {
+          "metric": "solutions_found",
+          "pass": true,
+          "value": 3
+        }
+      ],
+      "errors": [],
+      "duration_s": 7.284
+    },
+    {
+      "stage_id": 2,
+      "name": "測試",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "unit_tests_pass",
+          "pass": true,
+          "value": "skipped"
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.0
+    },
+    {
+      "stage_id": 3,
+      "name": "驗證",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "impedance_zo",
+          "value": 49.93,
+          "pass": true
+        },
+        {
+          "metric": "thermal_uw",
+          "value": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "next_db",
+          "value": -41.16,
+          "pass": true
+        },
+        {
+          "metric": "fext_db",
+          "value": -39.4,
+          "pass": true
+        },
+        {
+          "metric": "drc_ok",
+          "value": true,
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.0
+    },
+    {
+      "stage_id": 4,
+      "name": "交付",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "usage_doc_exists",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.001
+    },
+    {
+      "stage_id": 5,
+      "name": "使用說明+測試+材料數據庫",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "material_db_loaded",
+          "pass": true,
+          "value": true
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.0
+    },
+    {
+      "stage_id": 6,
+      "name": "各階段 KPI 驗收",
+      "status": "pass",
+      "kpi_checks": [
+        {
+          "metric": "all_acceptance_pass",
+          "pass": true,
+          "value": "11/11"
+        }
+      ],
+      "errors": [],
+      "duration_s": 0.003
+    }
+  ]
+}

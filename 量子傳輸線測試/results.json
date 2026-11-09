@@ -1,0 +1,67 @@
+{
+  "scenarios": [
+    {
+      "name": "CF3-stripline-50 (orig)",
+      "Z0_ohm": 74.359,
+      "Z0_err": 24.359,
+      "NEXT_dB": -33.01,
+      "FEXT_dB": -15.26,
+      "thermal_uW": 283.869,
+      "insertion_loss_dB": 0.7879
+    },
+    {
+      "name": "FPC-micro-50 (orig)",
+      "Z0_ohm": 73.431,
+      "Z0_err": 23.431,
+      "NEXT_dB": -33.25,
+      "FEXT_dB": -21.78,
+      "thermal_uW": 322.715,
+      "insertion_loss_dB": 0.6216
+    },
+    {
+      "name": "Uleam1-flex-50 (orig)",
+      "Z0_ohm": 68.077,
+      "Z0_err": 18.077,
+      "NEXT_dB": -33.07,
+      "FEXT_dB": -9.17,
+      "thermal_uW": 1372.54,
+      "insertion_loss_dB": 1.1806
+    },
+    {
+      "name": "CF3-opt",
+      "Z0_ohm": 49.885,
+      "Z0_err": -0.115,
+      "NEXT_dB": -37.4,
+      "FEXT_dB": -19.65,
+      "thermal_uW": 283.869,
+      "insertion_loss_dB": 0.7879
+    },
+    {
+      "name": "FPC-opt",
+      "Z0_ohm": 49.355,
+      "Z0_err": -0.645,
+      "NEXT_dB": -31.08,
+      "FEXT_dB": -19.61,
+      "thermal_uW": 510.965,
+      "insertion_loss_dB": 0.4016
+    },
+    {
+      "name": "Uleam1-opt",
+      "Z0_ohm": 44.136,
+      "Z0_err": -5.864,
+      "NEXT_dB": -40.59,
+      "FEXT_dB": -16.69,
+      "thermal_uW": 1043.13,
+      "insertion_loss_dB": 1.5427
+    }
+  ],
+  "optimization": {
+    "cost": 19.805152503926404,
+    "w_mm": 0.19,
+    "h_mm": 0.1,
+    "s_mm": 0.4,
+    "Z0": 49.88458541377333,
+    "NEXT_dB": -40.59413144656487,
+    "thermal_uW": 283.8693642646062
+  }
+}

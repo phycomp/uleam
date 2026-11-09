@@ -1,0 +1,39 @@
+kpis:
+  - kpi_id: KPI-1
+    title: 雲端 AI 計算平台
+    steps:
+      - {step_id: "1-1", requirement: 雲端環境建置, module: cloud-deploy, status: done}
+      - {step_id: "1-2", requirement: 不同截面阻抗計算, module: impedance_calculator, status: done}
+      - {step_id: "1-3", requirement: 不同疊構設計分析, module: dsl_parser, status: done}
+      - {step_id: "1-4", requirement: 傳輸線損耗計算, module: 計算.py, status: done}
+      - {step_id: "1-5", requirement: 視覺化, module: three-view, status: done}
+      - {step_id: "1-6", requirement: 平台整合測試, module: agent_workflow, status: done}
+      - {step_id: "1-7", requirement: 使用文件, module: docs/USAGE.md, status: done}
+      - {step_id: "1-8", requirement: LLM 自然語法解析, module: llm-parser, status: done}
+  - kpi_id: KPI-2
+    title: 每週定期會議
+    steps:
+      - {step_id: "2-1", requirement: 週會排程, module: meeting_tracker, status: pending}
+      - {step_id: "2-2", requirement: 會議記錄, module: meeting_tracker, status: pending}
+      - {step_id: "2-3", requirement: 合規狀態追蹤, module: meeting_tracker, status: pending}
+  - kpi_id: KPI-3
+    title: 電性 SOP
+    steps:
+      - {step_id: "3-1", requirement: 定義電性量測項目 (S11/S21/串擾), module: electrical-spec, status: done}
+      - {step_id: "3-2", requirement: 建立量測治具與測試配置, module: connector, status: done}
+      - {step_id: "3-3", requirement: 制定 SOP, module: electrical-test-sop, status: done}
+      - {step_id: "3-4", requirement: 理論預期值 vs 實測, module: 計算.py, status: done}
+  - kpi_id: KPI-4
+    title: 熱負載 SOP
+    steps:
+      - {step_id: "4-1", requirement: 定義熱負載量測項目 (300K/150K/40K), module: thermal-load-measurement, status: done}
+      - {step_id: "4-2", requirement: 建立低溫量測環境配置, module: thermal-load-measurement, status: done}
+      - {step_id: "4-3", requirement: 制定低溫量測 SOP, module: thermal-load-sop, status: done}
+      - {step_id: "4-4", requirement: 完成一組完整低溫量測數據, module: thermal-load-simulation, status: done}
+  - kpi_id: KPI-5
+    title: 量測單位鏈結
+    steps:
+      - {step_id: "5-1", requirement: 盤點台灣量測單位, module: measurement-unit-link, status: done}
+      - {step_id: "5-2", requirement: 聯繫洽詢, module: measurement-unit-link, status: done}
+      - {step_id: "5-3", requirement: 試量測, module: measurement-unit-link, status: done}
+      - {step_id: "5-4", requirement: 交叉比對, module: measurement-unit-link, status: done}

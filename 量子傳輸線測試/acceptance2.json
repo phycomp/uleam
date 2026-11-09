@@ -1,0 +1,66 @@
+{
+  "iteration": "closed-loop-2",
+  "results": [
+    {
+      "name": "CF3",
+      "material": "Cu",
+      "t_um": 10.0,
+      "w": 0.25,
+      "h": 0.13,
+      "s": 0.5,
+      "Z0": 50.005,
+      "NEXT": -40.11,
+      "thermal": 373.51,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    },
+    {
+      "name": "FPC",
+      "material": "Cu",
+      "t_um": 10.0,
+      "w": 0.3,
+      "h": 0.15,
+      "s": 0.6,
+      "Z0": 49.984,
+      "NEXT": -40.18,
+      "thermal": 448.21,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    },
+    {
+      "name": "Uleam1",
+      "material": "Ag",
+      "t_um": 35.0,
+      "w": 0.18,
+      "h": 0.11,
+      "s": 0.4,
+      "Z0": 50.528,
+      "NEXT": -40.82,
+      "thermal": 988.23,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": false,
+      "PASS": false
+    },
+    {
+      "name": "Uleam1-NbTi",
+      "material": "NbTi",
+      "t_um": 35.0,
+      "w": 0.24,
+      "h": 0.14,
+      "s": 0.5,
+      "Z0": 50.015,
+      "NEXT": -40.26,
+      "thermal": 61.3,
+      "Z0_ok": true,
+      "NEXT_ok": true,
+      "thermal_ok": true,
+      "PASS": true
+    }
+  ],
+  "all_pass": false
+}

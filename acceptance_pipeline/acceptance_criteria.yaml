@@ -1,0 +1,12 @@
+criteria:
+  - {criterion_id: AC-IMP-001, kpi_id: KPI-1, stage: 3, metric: impedance_zo, operator: in_range, threshold: [49.0, 51.0], test_ref: tests/test_acceptance_pipeline.py::test_impedance}
+  - {criterion_id: AC-THM-001, kpi_id: KPI-4, stage: 3, metric: thermal_uw, operator: "<=", threshold: 10.0, test_ref: tests/test_acceptance_pipeline.py::test_thermal}
+  - {criterion_id: AC-XTK-001, kpi_id: KPI-3, stage: 3, metric: next_db, operator: "<=", threshold: -40.0, test_ref: tests/test_acceptance_pipeline.py::test_crosstalk}
+  - {criterion_id: AC-XTK-002, kpi_id: KPI-3, stage: 3, metric: fext_db, operator: "<=", threshold: -30.0, test_ref: tests/test_acceptance_pipeline.py::test_crosstalk}
+  - {criterion_id: AC-DRC-001, kpi_id: KPI-1, stage: 3, metric: drc_ok, operator: "==", threshold: true, test_ref: tests/test_acceptance_pipeline.py::test_drc}
+  - {criterion_id: AC-MAT-001, kpi_id: KPI-1, stage: 1, metric: material_exists, operator: "==", threshold: true, test_ref: tests/test_acceptance_pipeline.py::test_material}
+  - {criterion_id: AC-TEST-001, kpi_id: KPI-1, stage: 2, metric: unit_tests_pass, operator: "==", threshold: true, test_ref: tests/test_acceptance_pipeline.py}
+  - {criterion_id: AC-DOC-001, kpi_id: KPI-1, stage: 4, metric: usage_doc_exists, operator: "==", threshold: true, test_ref: null}
+  - {criterion_id: AC-DB-001, kpi_id: KPI-1, stage: 5, metric: material_db_loaded, operator: "==", threshold: true, test_ref: null}
+  - {criterion_id: AC-MTG-001, kpi_id: KPI-2, stage: 6, metric: meeting_scheduled, operator: ">=", threshold: 1, test_ref: null}
+  - {criterion_id: AC-MEA-001, kpi_id: KPI-5, stage: 6, metric: unit_conversion_ok, operator: "==", threshold: true, test_ref: null}

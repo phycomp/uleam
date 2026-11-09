@@ -1,0 +1,1 @@
+0 2 * * * /usr/bin/python3 /home/quantum_team/agent/agent_production.py '{"target_zo": 50.0, "thermal_budget_uw": 1.0, "min_h_mil": 4.0, "er_dielectric": 4.2}' >> /var/log/quantum_agent.log 2>&1
