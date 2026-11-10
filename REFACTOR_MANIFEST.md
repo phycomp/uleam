@@ -46,6 +46,10 @@
 - examples/test_mantaro_polar.py：mantaro/polar 技能測試
 - .agents/skills/cloud-deploy/：雲端佈署與驗證技能
 - .agents/skills/qcable-index/、connector/、three-view/：技能索引、連接器、三視圖技能
+- .agents/skills/channel-manager/：頻道管理技能
+- 頻道管理.py：頻道管理模組
+- content_templates/：內容主題模板（quantum/sciedu/PQC）
+- crontab_example.txt：排程範例
 - .agents/skills/kpi-delivery-valid/：KPI 交付驗證 Pipeline 技能
 - .agents/skills/engineering-delivery/：通用工程開發→驗收 Pipeline 技能
 - .agents/skills/material-db/：材質數據庫技能
@@ -58,6 +62,9 @@
 - 串擾計算.py：串擾計算模組
 - docs/SKILL_HIERARCHY.md：技能層級架構
 - docs/SKILL_HIERARCHY_FULL.md：完整技能層級（含 YouTube/Git）
+- docs/QUANTUM_MARKET_ANALYSIS.md：量子市場分析報告
+- docs/HIERARCHY_MERMAID.md：Mermaid 層級圖
+- examples/hierarchy_analyzer.py：層級分析工具
 - 三視圖.py：三視圖模組（前/側/上，獨立函式）
 - docs/CLOUD_SETUP.md：雲端佈署指南
 - Dockerfile、wrangler.toml、worker.js、requirements.txt、.github/workflows/deploy-cloudflare.yml：佈署設定

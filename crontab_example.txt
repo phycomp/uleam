@@ -1,0 +1,5 @@
+# 每週 2 支短視頻 + 1 支長視頻
+# 短視頻：週二、週五 12:00
+0 12 * * 2,5 cd /home/sam/ytauto && /home/sam/flex/bin/python scripts/make_shorts.py --all >> /home/sam/ytauto/cron.log 2>&1
+# 長視頻：週日 10:00
+0 10 * * 0 cd /home/sam/Oloid && /home/sam/flex/bin/python scripts/render_matplotlib.py models/oloid.stl renders && ffmpeg -y -framerate 30 -i renders/frame_%04d.png -c:v libx264 -pix_fmt yuv420p video_weekly.mp4 >> /home/sam/Oloid/cron.log 2>&1
